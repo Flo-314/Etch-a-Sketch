@@ -1,0 +1,7 @@
+body{
+    display: flex;
+    background-color: gray;
+}
+.grid{
+    display:flex
+}
