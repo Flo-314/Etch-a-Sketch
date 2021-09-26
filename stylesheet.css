@@ -17,11 +17,11 @@ body {
   margin: 60px;
 }
 .grid-container {
-  width: 400px;
-  height: 400px;
+  width: auto;
+  height: auto;
   display: grid;
-  grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(16, 1fr);
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(16, 1fr);  
   
 }
 .grid {
@@ -31,4 +31,10 @@ body {
 }
 .mouseOver {
   background-color: red;
+}
+button{
+  padding: 20px;
+  width: 400px;
+  margin: 20px;
+  border-radius: 6px;
 }
