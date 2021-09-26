@@ -17,22 +17,21 @@ body {
   margin: 60px;
 }
 .grid-container {
-  width: auto;
-  height: auto;
+  width: 500px;
+  height: 500px;
+  flex-shrink: 0;
   display: grid;
-  grid-template-columns: repeat(16,1fr);
-  grid-template-rows: repeat(16, 1fr);  
-  
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
 }
 .grid {
-  width: 25px;
-  height: 25px;
+
   background-color: white;
 }
 .mouseOver {
   background-color: red;
 }
-button{
+button {
   padding: 20px;
   width: 400px;
   margin: 20px;
